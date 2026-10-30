@@ -1,0 +1,8 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"BT1","1","Battery_Cell","","","","Battery:BatteryHolder_Keystone_103_1x20mm","~"
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11","11","LED","","","","LED_THT:LED_D3.0mm","~"
+"J1","1","AVR-ISP-6","","","","Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical","~"
+"J2","1","Conn_01x03_Pin","","","","Connector:FanPinHeader_1x03_P2.54mm_Vertical","~"
+"SW1,SW2,SW3","3","SW_Omron_B3FS","","","","Button_Switch_THT:SW_PUSH_6mm","https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+"U1","1","ATmega48-20P","","","","Package_DIP:DIP-28_W7.62mm","http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf"
+"Y1","1","Crystal","","","","Crystal:Crystal_Round_D2.0mm_Vertical","~"

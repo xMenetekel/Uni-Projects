@@ -1,0 +1,92 @@
+** Drc report for pladiene.kicad_pcb **
+** Created on 2025-12-18T10:50:52+0100 **
+
+** Found 22 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(161.0000 mm, 99.5000 mm): Track [Net-(D1-A)] on B.Cu, length 1.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(151.0000 mm, 103.0000 mm): Track [Net-(D3-A)] on B.Cu, length 2.5000 mm
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.9000 mm; actual 0.5000 mm)
+    Rule: board setup constraints; error
+    @(152.9500 mm, 123.5000 mm): PTH pad 1 [Net-(U1-XTAL2/PB7)] of Y1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.9000 mm; actual 0.5000 mm)
+    Rule: board setup constraints; error
+    @(151.0500 mm, 123.5000 mm): PTH pad 2 [Net-(U1-XTAL1/PB6)] of Y1
+[lib_footprint_mismatch]: Footprint 'DIP-28_W7.62mm' does not match copy in library 'Package_DIP'.
+    Local override; warning
+    @(130.3400 mm, 120.1200 mm): Footprint U1
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(152.0000 mm, 123.4995 mm): Arc of Y1 on F.Silkscreen
+    @(152.0000 mm, 122.5000 mm): Reference field of Y1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(130.5000 mm, 87.2700 mm): Arc of D6 on F.Silkscreen
+    @(128.4600 mm, 87.2700 mm): Reference field of D7
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(125.5000 mm, 87.2700 mm): Arc of D7 on F.Silkscreen
+    @(123.4600 mm, 87.2700 mm): Reference field of D8
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(118.4600 mm, 87.2700 mm): Reference field of D9
+    @(120.5000 mm, 87.2700 mm): Arc of D8 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(118.4600 mm, 87.2700 mm): Reference field of D9
+    @(120.5000 mm, 87.2700 mm): Arc of D8 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(135.5000 mm, 87.2700 mm): Arc of D5 on F.Silkscreen
+    @(133.4600 mm, 87.2700 mm): Reference field of D6
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(138.4600 mm, 87.2700 mm): Reference field of D5
+    @(140.5000 mm, 87.2700 mm): Arc of D4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(138.4600 mm, 87.2700 mm): Reference field of D5
+    @(140.5000 mm, 87.2700 mm): Arc of D4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(166.0000 mm, 87.7700 mm): Arc of D11 on F.Silkscreen
+    @(163.9600 mm, 87.7700 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(166.0000 mm, 87.7700 mm): Arc of D11 on F.Silkscreen
+    @(163.9600 mm, 87.7700 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.0000 mm, 87.7700 mm): Arc of D10 on F.Silkscreen
+    @(168.9600 mm, 87.7700 mm): Reference field of D11
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(171.0000 mm, 87.7700 mm): Arc of D10 on F.Silkscreen
+    @(168.9600 mm, 87.7700 mm): Reference field of D11
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.0000 mm, 87.7700 mm): Arc of D1 on F.Silkscreen
+    @(158.9600 mm, 87.7700 mm): Reference field of D2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(161.0000 mm, 87.7700 mm): Arc of D1 on F.Silkscreen
+    @(158.9600 mm, 87.7700 mm): Reference field of D2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(156.0000 mm, 87.7700 mm): Arc of D2 on F.Silkscreen
+    @(153.9600 mm, 87.7700 mm): Reference field of D3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(153.9600 mm, 87.7700 mm): Reference field of D3
+    @(156.0000 mm, 87.7700 mm): Arc of D2 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
